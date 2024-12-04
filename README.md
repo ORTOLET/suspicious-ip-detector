@@ -21,21 +21,31 @@ The script scans system logs for:
 ### How to use the script:
 1. **Clone the repository**:
      Clone the repository to your local machine using Git:
+     ```bash
      git clone https://github.com/ORTOLET/suspicious-ip-detector.git
      cd suspicious-ip-detector
+     ```
 
-2. **Make the script executable: Ensure that the script is executable by running:
+2. **Make the script executable**:
+     Ensure that the script is executable by running:
+     ```bash
      chmod +x kinnamon.sh
+     ```
 
-3. **Run the script: Execute the script with your desired log file as an argument:
+3. **Run the script**:
+     Execute the script with your desired log file as an argument:
+     ```bash
      sudo ./kinnamon.sh /path/to/your/logfile.log
-     Replace /path/to/your/logfile.log with the actual path to the system log file you want to analyze (e.g., /var/log/auth.log).
+     ```
+     Replace `/path/to/your/logfile.log` with the actual path to the system log file you want to analyze (e.g., `/var/log/auth.log`).
 
-4. **Check the output: The script will generate a file called suspicious_ips.txt, which contains a list of suspicious IPs and the activities associated with them.
+4. **Check the output**:
+     The script will generate a file called `suspicious_ips.txt`, which contains a list of suspicious IPs and the activities associated with them.
 
 ## Requirements
-   Linux-based system
-   Utilities: grep, awk, sort
+   - Linux-based system
+   - Utilities: `grep`, `awk`, `sort`
 
 ## License
    This project is licensed under the MIT License
+
