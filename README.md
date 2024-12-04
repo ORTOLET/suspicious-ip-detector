@@ -46,6 +46,30 @@ The script scans system logs for suspicious activities. You can find the reposit
    - Linux-based system
    - Utilities: `grep`, `awk`, `sort`
 
+## Example
+
+Here’s an example of how to run the script on a system log file:
+
+1. **Clone the repository**:
+   ```bash
+      git clone https://github.com/ORTOLET/suspicious-ip-detector.git
+      cd suspicious-ip-detector
+   
+2. **Make the script executable**
+     chmod +x kinnamon.sh
+   
+4. **Run the script on a log file**:
+     sudo ./kinnamon.sh /var/log/auth.log
+   
+5. **Check the output**:
+     The script will generate a file called suspicious_ips.txt:
+     203.0.113.10 (SSH login attempt)
+     192.168.1.5 (Kernel/system warning)
+     198.51.100.1 (Unauthorized cron job)
+
+     
+
+
 ## License
    This project is licensed under the MIT License
 
