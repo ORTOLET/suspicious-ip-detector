@@ -4,7 +4,7 @@ This is a bash script designed to analyze system log files and detect suspicious
 The script is primarily intended for **Security Operations Center (SOC) analysts** to identify and investigate potentially malicious behavior based on log files from systems.
 
 ## Purpose
-The script scans system logs for:
+The script scans system logs for suspicious activities. You can find the repository and more details [here](https://github.com/ORTOLET/suspicious-ip-detector).
 - **Failed SSH login attempts** (which may indicate brute-force attacks).
 - **Kernel/system warnings** (which could suggest intrusion attempts or abnormal system behavior).
 - **Unauthorized cron job attempts** (indicating possible attempts to schedule malicious tasks).
